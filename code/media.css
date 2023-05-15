@@ -273,7 +273,7 @@
 
     .shoe-presentation #close-btn {
       transform: scale(1.2);
-      top: 13%;
+      top: 13% !important;
     }
 
     .shoe-presentation button {
@@ -282,7 +282,7 @@
     }
 
     .shoe-presentation #next-btn {
-      right: -4.2%;
+      right: -4.2% !important;
     }
 
     .shoe-presentation-thumbnails {
@@ -299,6 +299,10 @@
     #next-btn-mobile,
     #previous-btn-mobile {
       display: block !important;
+    }
+
+    #close-menu-btn {
+      display: block;
     }
 
     body {
@@ -327,8 +331,8 @@
       transform: scale(1.6);
       display: block !important;
       position: absolute;
-      top: 20%;
-      left: -8%;
+      top: 20% !important;
+      left: -8% !important;
       transition: all 0.7s ease-in-out;
     }
 
@@ -348,7 +352,7 @@
 
     .header-right-side img {
       z-index: 2;
-      width: 1.8rem;
+      width: 1.8rem !important;
     }
 
     section {
@@ -358,8 +362,8 @@
     }
 
     .shoe-product img {
-      width: 27rem;
-      height: 20rem;
+      width: 27rem !important;
+      height: 20rem !important;
       border-radius: 0;
       z-index: 6;
     }
@@ -427,7 +431,7 @@
     .plus-input-minus {
       background-color: var(--white);
       gap: 4.5rem;
-      width: 17rem;
+      width: 17rem !important;
       border-radius: 6px;
     }
 
@@ -457,7 +461,7 @@
 
     .cart-box {
       background-color: var(--white);
-      top: 8%;
+      top: 8% !important;
     }
 
     .shoe-presentation {
@@ -465,9 +469,8 @@
     }
 
     .overlay {
-      /* display: none; */
-      width: 110%;
-      height: 120%;
+      width: 110% !important;
+      height: 120% !important;
     }
 
     .shoe-product {
@@ -479,7 +482,7 @@
       position: absolute;
       display: grid;
       place-items: center;
-      top: 45%;
+      top: 45% !important;
       border-radius: 16px;
       transform: scale(1.3);
     }
@@ -502,7 +505,7 @@
     }
 
     #presentation-img {
-      width: 102vw;
+      width: 102vw !important;
     }
   }
 
@@ -510,6 +513,10 @@
     #next-btn-mobile,
     #previous-btn-mobile {
       display: block !important;
+    }
+
+    #close-menu-btn {
+      display: block;
     }
 
     header {
@@ -527,25 +534,23 @@
     }
 
     #presentation-img {
-      width: 116vw;
+      width: 116vw !important;
     }
 
     .svg-number-of-portions {
-      /* padding: 0.1rem 0.4rem !important; */
       padding: 0.1rem 0.55rem !important;
       font-size: 0.8rem;
     }
 
     .overlay {
-      /* display: none; */
-      width: 115.5%;
-      height: 120%;
+      width: 115.5% !important;
+      height: 120% !important;
     }
 
     .mobile-navigation {
-      height: 164vh;
-      width: 58vw;
-      left: -10%;
+      height: 164vh !important;
+      width: 58vw !important;
+      left: -10% !important;
     }
 
     #next-btn-mobile {
@@ -553,8 +558,8 @@
     }
 
     .cart-box {
-      top: 7%;
-      left: 14%;
+      top: 7% !important;
+      left: 14% !important;
     }
 
     .mobile-navigation ul li {
@@ -563,8 +568,12 @@
   }
 
   @media (max-width: 320px) {
+    #close-menu-btn {
+      display: block;
+    }
+
     #presentation-img {
-      width: 135vw;
+      width: 135vw !important;
     }
 
     #next-btn-mobile,
@@ -587,7 +596,7 @@
 
     .shoe-info p {
       margin-top: 2rem;
-      width: 140%;
+      width: 140% !important;
     }
 
     .shoe-info-price {
@@ -597,7 +606,6 @@
     .shoe-info-amount-and-btn {
       margin-left: 6rem;
       margin-top: 3rem;
-      /* padding-top: 4rem; */
     }
 
     .cart-box {
@@ -608,7 +616,6 @@
       padding: 0 !important;
       width: 17rem;
       height: 2.5rem;
-      /* gap: 2rem; */
       justify-content: center;
     }
 
@@ -618,27 +625,26 @@
 
     .shoe-info-price {
       gap: 2rem;
-      /* background-color: blue; */
-      width: 130%;
+      width: 130% !important;
     }
 
     .cart-box {
-      top: 7%;
-      right: -25%;
+      top: 7% !important;
+      right: -25% !important;
     }
 
     .overlay {
-      width: 135%;
-      height: 136%;
+      width: 135% !important;
+      height: 136% !important;
     }
 
     #close-menu-btn {
-      left: -10%;
+      left: -10% !important;
     }
 
     .mobile-navigation {
-      width: 70vw;
-      height: 190vh;
+      width: 70vw !important;
+      height: 190vh !important;
     }
 
     .mobile-navigation ul {

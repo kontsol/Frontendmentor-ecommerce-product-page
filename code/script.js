@@ -104,8 +104,6 @@ delete_svg.addEventListener("click", () => {
 add_to_cart.addEventListener("click", () => {
   console.log(typeof Number(portions.value));
   if (Number(portions.value) > 0) {
-    // ΝΑ ΜΗΝ ΑΝΟΙΓΕΙ ΤΟ ΚΑΡΤ ΑΛΛΑ ΝΑ ΕΜΦΑΝΙΖΕΙ ΕΝΑ ΙCON ΟΤΙ ΠΡΟΣΘΕΘΗΚΕ ΑΝΤΙΚΕΙΜΕΝΟ
-    // cart_box.classList.remove("hidden");
     cart_content.classList.remove("hidden");
     empty_cart.classList.add("hidden");
     shoe_price_cart.textContent = shoe_price.textContent;
